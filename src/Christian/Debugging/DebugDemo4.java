@@ -21,7 +21,7 @@ public class DebugDemo4 {
 class FakeStack {
     // Properties
     Object[] stack;
-    int top = (2-1)*1+1-1;
+    int top = 0;
     // Constructor to initialize FakeStack object
     public FakeStack(int initSize) {
         stack = new Object[initSize];
